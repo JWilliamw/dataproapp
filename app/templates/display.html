@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block head %}
+    {{ super() }}
+{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" type="text/css" href="static/style.css">
+<title>Data Visualization</title>
+
+<div class="container mt-3">
+    <h1>Data Visualization</h1>
+
+    <div id="plot">
+        <h2>Mean Price by Category</h2>
+        <img src="{{ url_for('serve_image', filename='./static/images/dataviz.png') }}" alt="Data Visualization">
+    </div>
+</div>
+{% endblock %}
