@@ -8,7 +8,7 @@ Nous avons un dossier data prep dans lequel se trouve un script de préparation 
 
 
 ## Requirements
-Le fichier requirement contient les librairies nécessaires pour tester le site; On pourra les installer avec : pip install -r requirements
+Le fichier requirement contient les librairies nécessaires pour tester le site; On pourra les installer avec : pip install -r requirements. Avant, faudra créer un environnement virtuel python : python3 -m venv nom_env puis l'activer de cette manière source/nom_env/bin/activate
 
 ## APP
 Le corps de notre site se trouve dans le dossier APP avec les templates html, css, le modèle de données ainsi que les routes. 
